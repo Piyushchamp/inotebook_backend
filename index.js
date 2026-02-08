@@ -9,7 +9,8 @@ const port = 5000
 
 // app.use(cors())
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
+  // origin: process.env.FRONTEND_URL,
+  origin: true,
   credentials: true
 }));
 
